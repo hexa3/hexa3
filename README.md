@@ -13,4 +13,4 @@ Software engineer in the UAE building systems-level projects end to end — robo
 
 Robotics & simulation series: [torque](https://github.com/hexa3/torque) · [helios](https://github.com/hexa3/helios) · [drag_sim](https://github.com/hexa3/drag_sim)
 
-Web: [sheheryartech.netlify.app](https://sheheryartech.netlify.app)
+Web: [sheheryar.xyz](https://sheheryar.xyz)
