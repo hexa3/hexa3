@@ -2,6 +2,14 @@
 
 Software engineer in the UAE building systems-level projects end to end — from programming languages and microkernels to robotics, AI, and game engines. I like ambitious ideas, from-scratch engineering, and software you can clone and run.
 
+### [Cartpole18](https://github.com/hexa3/cartpole18) · [live demo](https://cartpole18.netlify.app)
+
+An 18-link inverted pendulum balanced on a cart by a single linear motor, written in Rust and running in the browser via WebAssembly. A 1 kHz LQR controller designed in double-double (~32-digit) precision keeps the whole chain upright and recovers from pushes on any link.
+
+### [Astra](https://github.com/hexa3/astra)
+
+A quiet, open desktop browser built on Electron, Chromium, TypeScript, and Svelte: local by default, reproducible byte-identical builds, a stable core API between privileged browsing and the UI shell, config as code, and self-hostable end-to-end-encrypted sync with no account.
+
 ### [Redoubt OS](https://github.com/hexa3/redoubt-os)
 
 Redoubt OS is a capability-safe Rust microkernel for hardened appliances. It explores ring-3 service isolation, verified program storage, signed A/B updates with rollback, encrypted persistence, supervision, and a working QEMU operator shell.
@@ -12,6 +20,8 @@ Torque is my programming language for real-time robotics control: physical units
 
 ### Other projects
 
+- **[Smart Trash Sorter](https://github.com/hexa3/smart-trash-sorter)** — camera + TensorFlow Lite classifier + Arduino mechanism that routes each item to a recycling or trash bin
+- **[minamilist](https://github.com/hexa3/minamilist)** — small native code editor in Rust (winit + wgpu) with syntax highlighting, project search, language tooling, a terminal, and Git
 - **[ChessForge](https://github.com/hexa3/chessforge)** — from-scratch Python chess engine with bitboards, legal move generation, alpha-beta search, and reproducible benchmarks; plays on Lichess as [@ChessForge_Bot](https://lichess.org/@/ChessForge_Bot)
 - **[Memex](https://github.com/hexa3/memex)** — local-first persistent memory for LLMs in a single SQLite file; published to [PyPI](https://pypi.org/project/memex-ai/) and [npm](https://www.npmjs.com/package/memex-ai)
 - **[Helios](https://github.com/hexa3/helios)** — 6-DOF robot arm simulator with forward kinematics, inverse kinematics, dynamics, impedance control, and a live dashboard
@@ -20,6 +30,11 @@ Torque is my programming language for real-time robotics control: physical units
 - **[Drag Sim](https://github.com/hexa3/drag_sim)** — real-time OpenGL physics simulation of aerodynamic drag with fixed-step integration and live graphs
 - **[Wayfinder](https://github.com/hexa3/wayfinder-reveriehacks-2026)** — accessibility-first, offline-capable campus routing
 - **[Lucid](https://github.com/hexa3/lucid)** — Feynman-technique AI tutor that diagnoses misconceptions and teaches to the gap
+- **[FlappyLearn](https://github.com/hexa3/FlappyLearn)** — watch an AI learn Flappy Bird from scratch
+- **[Trend Sight](https://github.com/hexa3/trend_sight)** — longitudinal lab-trend analysis that flags meaningful decline hiding inside normal ranges
+- **[MoneyMind AI](https://github.com/hexa3/Money-Mind-AI)** — financial literacy as an interactive game with scam detection, an AI tutor, and a teacher dashboard
+- **[Compass](https://github.com/hexa3/compass)** — AI care coordination for family caregivers: care plans, medications, appointments, and family collaboration
+- **[CodeForces](https://github.com/hexa3/CodeForces-1)** — competitive programming practice log in C++ and C#
 
 I keep coming back to clear languages, capability boundaries, deterministic behavior, transparent algorithms, local-first software, and tools that make difficult ideas easier to understand.
 
