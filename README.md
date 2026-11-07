@@ -20,6 +20,8 @@ Torque is my programming language for real-time robotics control: physical units
 
 ### Other projects
 
+- **[tinydie silicon](https://github.com/hexa3/ttgf-tinydie)** · [writeup](https://sheheryar.xyz/tinydie/) — the dice as an actual chip on a shared gf180mcu shuttle: d2 through d100 on two seven-segment displays, with fairness checked over thousands of simulated rolls
+- **[tinydie](https://github.com/hexa3/tinydie)** — electronic die on an ATtiny412 and a CR2032: KiCad PCB, gerbers, and C firmware that sleeps between rolls so there's no power switch
 - **[PrognosAI](https://github.com/hexa3/prognosai)** · [live demo](https://hexa3.github.io/prognosai/) — explainable, cost-aware predictive maintenance: failure detection, RUL forecasting with conformal intervals, and cost-optimal scheduling, running in the browser via WebAssembly
 - **[Tempo](https://github.com/hexa3/tempo)** · [live](https://tempo-study-planner.netlify.app) — AI study planner for high-school students that learns how long work really takes you and tells you on day one when a week doesn't fit ([pitch deck](https://github.com/hexa3/tempo-pitch-deck))
 - **[Night Sky for TRMNL](https://github.com/hexa3/trmnl-night-sky)** — live star chart and stargazing forecast for TRMNL e-ink displays, with a from-scratch pure-Python astronomy engine
