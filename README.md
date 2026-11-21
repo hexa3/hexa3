@@ -8,7 +8,7 @@ At the start of every year I write down the projects I want to build that year, 
 
 A game console on a single Tiny Tapeout chip (4x2 tiles on GF180). An RV32E + Zmmul RISC-V CPU runs C straight from SPI flash with PSRAM over the same four QSPI wires, and a framebuffer-less GPU computes every 640x480 VGA pixel in one clock — four Islamic eight-pointed-star (khatam) patterns, shape and bitmap sprites, and hardware collision detection. A three-voice sound chip drives a single PWM pin, and the launch game, Starfall, runs in Verilog simulation and on an FPGA.
 
-### ⭐ [Tumble](https://github.com/hexa3/tumble)
+### ⭐ [Tumble](https://github.com/hexa3/tumble) · [writeup](https://sheheryar.xyz/tumble/)
 
 The sequel to tinydie: a die whose pips behave like real little discs — tilt it and they roll, shake it and they bounce off the walls, then they settle into a random face with a haptic thud. Three stacked 50x50 mm boards (an 11x11 LED face on an IS31FL3733B, an STM32G041 core with accelerometer, haptics, and an avalanche-noise entropy source, and a USB-C battery base), with d4 through d100. Randomness is verifiable over USB serial: SP 800-90B health tests feed a BLAKE2s pool into ChaCha20.
 
